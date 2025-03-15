@@ -1,0 +1,94 @@
+What is Emmet?
+
+Answer:
+
+Emmet is a plugin provided to the developers who can just write a shortcut of code and then it get converted into a code snippet 
+it is used in a lot of code editors including vs code. 
+emmet is used for multiple languages like (HTML , CSS , JavaScript)
+
+
+Difference between a Library and Framework?
+
+Answer : 
+
+A library and a framework both are the collection of prewritten code which is reuseable.
+In case if library we have the inversion of control over the useage of the prewritten code.
+In case of Framework it is a structured code which have some set of rules that need to be followed by the developer while using  the framework
+
+Example :
+while building a house library is like a toolkit we can use it when ever we want but Framework is the blueprint of the structure of the house which need to be Followed
+
+Library : react js
+ 
+Framewoek : angular 
+
+What is CDN? Why do we use it?
+
+Answer : 
+
+CDN stands for content dilivery network 
+CDN is a network of servers which are distributed globally which delivery web content like html, css , javaScript , images and videos faster to users based on geographical location.
+CDN advantages are it improves website loading speed, reduces latency by serving content from nearest server, improves SEO ranking because of faster loading time.
+
+Example : If a person is trying to stream a movie sitting India and it is available in only 1 server and it is in USA then the buffer time will increase. 
+
+
+Why is React known as React?
+React is a javaScript library , and the name React is choosen so that the developers can react to the changes in state and data within an application.
+
+What is crossorigin in script tag?
+
+Answer :
+
+crossorigin attribute in script tag is used to handle  cross origin resourse sharing (CROS) when loading external scripts from a different origin like CDN.
+
+why we need cross origin : 
+1)To access resources from different origin , 2) To avoid CROS realted errors when using Content Delivery Network (CDN), 3)It enables better error handling.
+
+What is diference between React and ReactDOM ? 
+
+Answer : 
+
+
+React and ReactDOM are two separate libraries that work together to build React applications.
+
+* React library
+React library is responsible for building UI component , contain functions and  hooks to create component manage state and handle lifecycle methods.
+React library is platform independent means it is used to build web , mobile and desktop apps 
+
+* ReactDOM library
+ReactDOM is responsible for interaction with the browser DOM.
+ReactDOM library renders React components to the real HTML DOM. 
+ReactDOM is specific to web applications (for mobile React native is used )
+
+Without ReactDOM, React cant update the real DOM.
+
+What is difference between react.development.js and react.production.js files via CDN?
+
+Answer : 
+
+when we are using React via CDN Link we will find 2 version of react one will be react.development.js and another will be react.production .js 
+
+1) react.development.js : This include unminified code which means the code is not stripped of unnecessary characters like white space and comments 
+this code also include helpful warning and error messages it also helps in debugging during development but it has larger file size.
+2) react.production.js : this is totally opposite the code is minified and removes all the logs, checks and errors and it is optimised for better performance and faster loading
+this code has smaller size.
+ 
+
+What is async and defer?
+
+Answer :
+
+Normal : while loading a webapge in the browser what happens while parsing the html if it encounters a script tag at this point of time the browser pause the parsing of html and starting fetching the script from the browser,
+and start executing in then and there once the script is fetched and fully executed the html parsing again get started  
+
+Async : while loading the webpage in the browser while parsing the html if the script tag is encountered the it fetches the scrpt while parsing the html this time the parsing of html is not stopped until and unless 
+the script started executed , once the script start geting executed the html parsing pause unless the script is executed fully and after that the remaining html again start parsing.
+
+Defer : while loading a webpage in the browser while parsing the html if the script tag is encountered then it simultaniously parse the html and also fetch the script but the script is only executed when the parsing of html is fully
+completed then the script get executed.
+
+
+
+
+
